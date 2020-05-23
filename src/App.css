@@ -1,0 +1,171 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(22, 22, 22);
+}
+
+.containerApp {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.areaTexto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.areaTexto h1 {
+  color: #fff;
+  font-size: 2.6rem;
+}
+
+.areaTexto h1 span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.areaTexto p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.areaTexto p span {
+  color: rgb(236, 204, 18);
+  font-weight: bold;
+}
+
+.areaTexto button {
+  min-width: auto;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgb(28, 56, 184);
+  text-transform: uppercase;
+  color: rgb(240, 240, 240);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.areaInfo {
+  border: 3px solid rgb(236, 204, 18);
+  width: 100%;
+  max-width: 400px;
+  margin-top: 40px;
+  min-height: 450px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgb(19, 17, 17);
+}
+
+.listaInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.listaInfo .containerPersonagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.containerPersonagem .namePersonagem,
+.containerPersonagem .datePersonagem,
+.containerPersonagem .cPersonagem {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+.containerPersonagem .datePersonagem {
+  flex-direction: row;
+  margin: 20px 0px;
+}
+
+.namePersonagem p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.namePersonagem span {
+  font-size: 1rem;
+}
+
+.datePersonagem p {
+  margin: 0 20px;
+}
+
+.datePersonagem p span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: rgb(236, 204, 18);
+}
+
+.containerPersonagem .cPersonagem {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+
+.cPersonagem h3 {
+  font-size: 1.2rem;
+  color: rgb(236, 204, 18);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.cPersonagem p {
+  margin: 5px;
+}
+
+.cPersonagem p span {
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgb(236, 204, 18);
+}
+
+.handleError {
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 830px) {
+  .containerApp {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .areaTexto {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .areaInfo {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
