@@ -15,10 +15,6 @@ Instalação:
 
 `npm install`
 
-Para rodar testes:
-
-`npm test`
-
 Para iniciar a aplicação:
 
 `npm start`
